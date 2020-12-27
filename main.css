@@ -36,6 +36,7 @@ body {
   animation: animate 5s linear infinite;
 }
 
+/* Al pasar el cursor el botón sólo se enciende con luz neón verde */
 .on:hover {
   background-color: #0F0;
   color: #000;
