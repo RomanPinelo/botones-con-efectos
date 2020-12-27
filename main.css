@@ -1,4 +1,5 @@
 /* Inicialmente el boton tiene un anillo de luz neón. Cuando pasas el mouse enciende tambien con luz neón. */
+
 * {
   margin: 0;
   padding: 0;
@@ -26,6 +27,7 @@ body {
   padding-top: 2.1vw;
   margin: 5rem;
   border-radius: 50%;
+  /* Hace el efecto de luz neón al borde */
   border: 10px solid #FFF;
   box-shadow: 0 0 50px #0F0, inset 0 0 50px #0F0;
   -webkit-box-reflect: below 10px linear-gradient(transparent, transparent, #0002);
