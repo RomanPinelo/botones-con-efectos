@@ -28,6 +28,7 @@ body {
   border-radius: 50%;
   border: 10px solid #FFF;
   box-shadow: 0 0 50px #0F0, inset 0 0 50px #0F0;
+  -webkit-box-reflect: below 10px linear-gradient(transparent, transparent, #0002);
   animation: animate 5s linear infinite;
 }
 
