@@ -30,6 +30,7 @@ body {
   /* Hace el efecto de luz neón al borde */
   border: 10px solid #FFF;
   box-shadow: 0 0 50px #0F0, inset 0 0 50px #0F0;
+  /* Provoca que se vea un reflejo bajo el botón */
   -webkit-box-reflect: below 10px linear-gradient(transparent, transparent, #0002);
   animation: animate 5s linear infinite;
 }
